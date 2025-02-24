@@ -1,18 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clean Problem</title>
-    <link rel="stylesheet" href="./Style/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./Style/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
 </head>
+
 <body>
-    
-    <h1>Eliminamos el problema, garantizamos la limpieza</h1>
+    <header class="navBarContainer">
+        <nav class="navbar navbar-dark">
+            <div class="container-fluid">
+                <div class="containerLogo">
+                    <img class="logo" src="./Media/photo/logo.jpg" alt="Logo clean Problem">
+
+                    <div>
+                        <a class="navbar-brand logoTitle" href="index.html">Clean Problem</a>
+                        <p class="logoSubtitle">Eliminamos el problema, garantizamos la limpieza</p>
+                    </div>
+
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                           <i class="bi bi-bar-chart-steps"> </i>  Menú 
+                        </h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> <i class="bi bi-person-raised-hand"></i> ¿Quienes somos?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> <i class="bi bi-check-circle"></i> Nuestros servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> <i class="bi bi-telephone"></i> Contactanos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Nuestras redes sociales
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=61557768453733" target="_blank"> <i class="bi bi-facebook"></i> Facebook </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://www.tiktok.com/@clean.problem" target="_blank"> <i class="bi bi-tiktok"></i> TikTok</a>
+                                    </li>
+
+                                    <li>
+                                        <a class="dropdown-item" href="https://www.instagram.com/cleanproblem/" target="_blank"> <i class="bi bi-instagram"></i> Instagram</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./Js/main.js"></script>
 </body>
+
 </html>

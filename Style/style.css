@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*************** Nav bar ***********************/
+.navBarContainer{
+    background-color: rgb(17, 8, 68);
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.containerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logoTitle{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.logoSubtitle{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: small;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+    font-style: italic;
+}
+.containerPresentation{
+    margin-top: 20px;
+}
+
+.navbar-brand{
+    margin: 10px;
+}
+
+
