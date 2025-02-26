@@ -38,10 +38,10 @@
 .logoSubtitle{
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    font-size: small;
+    font-size: 36px;
     letter-spacing: 0.5px;
     margin-left: 10px;
-    font-style: italic;
+    font-style: bold;
 }
 .containerPresentation{
     margin-top: 20px;
