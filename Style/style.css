@@ -80,11 +80,10 @@
 .card-container{
     display: flex;
     justify-content: space-around;
-
 }
 
 .card{
-    margin: 20px;
+    margin: 25px;
 }
 /*************** Footer  ***********************/
 /*Para el footer responsive tome de guia este video: https://www.youtube.com/watch?v=sgDabqmtLUg*/
