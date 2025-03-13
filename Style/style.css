@@ -80,14 +80,12 @@
 .card-container{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
+
 }
 
-.card-content{
-    background-color: #563a0c;
+.card{
+    margin: 20px;
 }
-
 /*************** Footer  ***********************/
 /*Para el footer responsive tome de guia este video: https://www.youtube.com/watch?v=sgDabqmtLUg*/
 .footer {
